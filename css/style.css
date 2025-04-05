@@ -3,15 +3,15 @@
     padding: 0;
     scroll-behavior: smooth;
 }
-:root{
-    --
-}
 body{
     background-color: rgb(0, 0,33);
     color: white;
     font-family: "Poppins", sans-serif;
     overflow-x: hidden;
 }
+@media screen and (min-width:1200px) {
+  
+
 nav{
     display: flex;
     justify-content: space-around;
@@ -268,3 +268,151 @@ h1{
   justify-content: center;
   align-items: center;
 }
+}
+@media only screen and (max-width: 480px) {
+  html{
+    overflow-x: hidden;
+    overflow-y:scroll
+  }
+  nav {
+  display: none;
+  }
+  .firstsection{
+    width: 100vw;
+    margin-bottom: 10vh;
+  }
+ .leftsection{
+  text-align: center;
+   font-size: x-large;
+   margin-top: 30%;
+   font-weight: 700;
+
+ }
+
+ .leftsection span{
+  color: rgb(205, 193, 233);
+ }
+ .cv button{
+padding-left: 15px;
+padding-right: 15px;
+padding-top:8px;
+padding-bottom: 10px;
+border: 2px solid navy;
+ }
+ 
+ a{
+  text-decoration:  none;
+ }
+ .rightsection img{
+border-radius: 50%;
+width: 50%;
+border: 2px solid rgb(12, 12, 95);
+margin-top: 10vh;
+ }
+ .thirdsection{
+  height:100vh;
+  width: 100vw;
+    text-align: center;
+
+ }
+ .thirdsection h1{
+  text-align: center;
+  
+ }
+ .thirdsection .left{
+  margin-top:10vh;
+  color:#b2ffff;
+ }
+ .thirdsection .right img{
+border-radius: 50%;
+width: 60%;
+height: 28vh;
+border: 2px solid rgb(12, 12, 95);
+margin-top: 10vh;
+ }
+ .secondsection h1{
+text-align: center;
+ }
+ .serve{
+    margin-top:10vh;
+  color:#b2ffff;
+  text-align: center;
+ }
+ .work{
+ }
+ .work img{
+border-radius: 50%;
+width: 40%;
+border: 2px solid rgb(12, 12, 95);
+margin-left: 30%;
+
+ }
+figcaption{
+text-align: center;
+margin-bottom: 7vh;
+}
+.blogpage{
+
+}
+.blogpage h1{
+  text-align: center;
+   margin-top:10vh;
+   margin-bottom: 10vh;
+   font-size:x-large;
+
+}
+#mainblog{
+  width:80vw;
+  text-align: center;
+  margin-left: 10%;
+}
+#mainblog img{
+  width: 78vw;
+}
+.blog1,.blog2,.blog3{
+  margin-bottom: 10%;
+  border: 3px solid rgb(12,12,95);
+}
+.contactme{
+  height: 80vh;
+
+}
+.contactme h1{
+  text-align: center;
+   margin-top:10vh;
+   margin-bottom: 10vh;
+   font-size:xx-large;
+}
+form{
+width: 80vw;
+border: 2px solid rgb(12, 12, 95);
+margin-left: 5%;
+padding-top:10%;
+padding-left: 5%;
+}
+input{
+  margin-bottom: 10%;
+  padding: 10px;
+}
+.submit input{
+ background-color:rgb(69, 69, 235);
+  color: #b2ffff;
+  border: 1px solid blue;
+padding-left: 10vw;
+padding-right: 10vw;
+border-radius: 8%;
+margin-left: 20vw;
+}
+footer{
+  background-color:rgb(12, 12, 128);
+  
+}
+footer p{
+  text-align: center;
+}
+.aa{
+  color: rgb(128, 128, 241);
+}
+
+}
+
