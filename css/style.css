@@ -170,3 +170,127 @@ textarea{
     padding: 10vh 10vw 10vh 10vw;
 
 }
+
+/* New things added  */
+.blogpage,
+.main-1,
+.main2,
+.main,
+.contactme {
+  height: 100vh;
+  width: 100vw;
+}
+.blogpage {
+  padding-top: 10%;
+}
+#mainblog {
+  gap: 40px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin-left: 150px;
+}
+.blog1,
+.blog2,
+.blog3 {
+  box-shadow: 2px 2px 10px blue;
+  height: 60%;
+  color: #a3c1ad;
+  width: 400px;
+}
+.blog1:hover,
+.blog2:hover,
+.blog3:hover {
+  scale: 1.01;
+}
+#we {
+  text-align: center;
+}
+#under:hover {
+  color: blue;
+  text-decoration: underline;
+}
+.topic {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(9, 113, 113);
+  margin-bottom: 2px;
+}
+#blog {
+  color: #b9d9eb;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: xxx-large;
+  font-weight: bold;
+  padding-top: 50px;
+}
+#image {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.contactme {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.a1a {
+  color: #b9d9eb;
+  font-size: xxx-large;
+  font-weight: bold;
+  padding-bottom: 60px;
+  padding-top: 50px;
+}
+.info {
+  gap: 40px;
+  box-shadow: 2px 2px 10px blue;
+  width: 40%;
+  margin-left: 450px;
+  padding: 50px;
+}
+.name,
+.email,
+.no,
+.message,
+.submit {
+  margin-bottom: 40px;
+  color: #a3c1ad;
+  font-size: x-large;
+}
+#submit {
+  padding: 10px 50px 10px 50px;
+  font-weight: bold;
+  font-size: large;
+}
+.contactme:hover {
+  .contact {
+    color: #b2ffff;
+    scale: 1.2;
+    text-shadow: 0px 0px 10px rgb(50, 119, 223), 0px 0px 20px rgb(88, 138, 213),
+      0px 0px 30px rgb(81, 141, 231), 0px 0px 40px rgb(158, 190, 238);
+    text-decoration: underline;
+  }
+}
+.blogpage:hover {
+  #blogab {
+    color: #b2ffff;
+    scale: 1.2;
+    text-shadow: 0px 0px 10px rgb(50, 119, 223), 0px 0px 20px rgb(88, 138, 213),
+      0px 0px 30px rgb(81, 141, 231), 0px 0px 40px rgb(158, 190, 238);
+    text-decoration: underline;
+  }
+}
+.message>input{
+  -left: 10%;
+}
+html{
+  scroll-behavior: smooth;
+}
+phone{
+  color: white;
+}
