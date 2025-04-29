@@ -9,6 +9,11 @@ body{
     font-family: "Poppins", sans-serif;
     overflow-x: hidden;
 }
+@media screen and (min-width: 700px) {
+    body{
+        overflow-x: hidden;
+    }
+  
 
 nav{
     display: flex;
@@ -330,6 +335,7 @@ h1{
 footer{
   text-align: center;
   background-color: rgb(10, 10, 45);
+}
 }
 
 
